@@ -17,8 +17,6 @@ int main() {
     float area2, pib2, densidadePop2, pibPerCapita2, superPoder2;
     int resultado;
 
-
-
  // Ler informações da Carta 1
     printf("CADASTRO DA CARTA 1\n");
     printf("Insira letra do Estado: ");
@@ -83,9 +81,6 @@ int main() {
 
     superPoder2 = populacao2 + area2 + pib2 + turista2 + pibPerCapita2 + (1 / densidadePop2);
 
-
-
-
     // Mostrar Carta 1
     printf("Carta 1:\n");
     printf("Estado: %c\n", estado1);
@@ -120,34 +115,6 @@ int main() {
 
     printf("Comparação de Cartas: \n");
 
-    // Cadastro das Cartas:
-    // Implemente a lógica para solicitar ao usuário que insira os dados das cidades
-    // utilizando a função scanf para capturar as entradas.
-    // utilize o código do primeiro desafio
-
-    // Exemplo:
-    // printf("Digite o código da cidade: ");
-    // scanf("%s", codigo);
-    // 
-    // (Repita para cada propriedade)
-
-    // Comparação de Cartas:
-    // Desenvolva a lógica de comparação entre duas cartas.
-    // Utilize estruturas de decisão como if, if-else para comparar atributos como população, área, PIB, etc.
-
-    // Exemplo:
-    // if (populacaoA > populacaoB) {
-    //     printf("Cidade 1 tem maior população.\n");
-    // } else {
-    //     printf("Cidade 2 tem maior população.\n");
-    // }
-
-    // Exibição dos Resultados:
-    // Após realizar as comparações, exiba os resultados para o usuário.
-    // Certifique-se de que o sistema mostre claramente qual carta venceu e com base em qual atributo.
-
-    // Exemplo:
-    // printf("A cidade vencedora é: %s\n", cidadeVencedora);
     if (populacao1 > populacao2) {
         printf("População: Carta 1 venceu \n");
     } else {
